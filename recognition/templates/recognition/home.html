@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="jumbotron">
+        {% if user.is_authenticated %}
+            <h2>Start the model !</h2><br>
+            <button align="center" class="btn btn-danger" style="margin-left: 45%">
+                <a id="startM" href="{% url 'start_training' %}" style="text-decoration: none">
+                    Start Model
+                </a>
+            </button>
+            <style>
+                #startM{
+                    color : white;
+                }
+            </style>
+        {% else %}
+            <h1 align="center">How's it going?</h1><br><br>
+            <p>&nbsp A Big Welcome, To all visitors!<a href="{% url 'signup' %}">register here</a>!</p>
+            <button id="comment-button" class="btn btn-large">Know more about <u>Pointini!</u></button>
+        {% endif %}
+    </div>
+{% endblock content %}

@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="jumbotron">
+	    <div class="containerCamF" align="center">
+            <img src="{% url 'facecam_feed' %}">
+        </div>
+    </div>
+    <div class="butContainer" align="center">
+        <button type="button" class="btn btn-danger">
+            <a href="{% url 'index' %}">
+                        Stop
+            </a>
+        </button>
+    </div>
+{% endblock content %}

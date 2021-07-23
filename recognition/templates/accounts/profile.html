@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h2 class="text-success" style="margin-bottom: 35px;margin-left: 20%">Welcome <strong>{{ user.username }} </strong>! <span class="icon-emo-happy"></span></h2>
+    <p>Go Back to The <a href="{% url 'index' %}" target="_self" style="text-decoration: none">
+        Home page</a>
+    </p>
+{% endblock %}

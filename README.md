@@ -1,5 +1,5 @@
 # face_recognition (pfe)
-Face recognition and identification using opencv,imutils,scikit-learn,etc implemented in django
+Face recognition and identification using opencv, imutils, scikit-learn, etc implemented in django
 
 
 ## To run locally

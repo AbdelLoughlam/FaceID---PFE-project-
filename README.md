@@ -1,4 +1,4 @@
-# face_recognition (pfe)
+# FaceID (pfe)
 Face recognition and identification using opencv, imutils, scikit-learn, etc implemented in django
 
 
